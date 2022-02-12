@@ -1,7 +1,9 @@
 const router = require("express").Router({ mergeParams: true });
 
-router.post("/", (req, res) => {
+const simulationController = require("../controllers/simulation.js");
 
+router.post("/", (req, res) => {
+    simulationController.run();
 });
 
 module.exports = router;
