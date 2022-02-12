@@ -1,0 +1,23 @@
+{
+  "name": "odh-inn",
+  "version": "1.0.0",
+  "description": "Hotel simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscardh97/odh-inn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscardh97/odh-inn/issues"
+  },
+  "homepage": "https://github.com/oscardh97/odh-inn#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}
