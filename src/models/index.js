@@ -1,13 +1,19 @@
 const Validator = require('jsonschema').Validator;
 
 const Request = require("./request.js");
+const Reservation = require("./reservation.js");
+const Room = require("./room.js");
 
 const schemas = {
-    Request
+    Request,
+    Reservation,
+    Room
 };
 
 const schemaValidator = new Validator();
 schemaValidator.addSchema(Request);
+schemaValidator.addSchema(Reservation);
+schemaValidator.addSchema(Room);
 
 const validate = (input, schemaName) => {
     const retVal = {

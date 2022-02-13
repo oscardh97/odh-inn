@@ -22,6 +22,7 @@
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
     "jsonschema": "^1.4.0",
+    "lodash": "^4.17.21",
     "mergesort": "0.0.1",
     "moment": "^2.29.1",
     "sorted-array": "^2.0.4"

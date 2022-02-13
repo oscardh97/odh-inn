@@ -15,8 +15,4 @@ const requestSchema = {
     }
 };
 
-// const Request = ( input ) => {
-
-// };
-
 module.exports = requestSchema;

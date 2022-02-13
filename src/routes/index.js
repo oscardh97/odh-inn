@@ -1,7 +1,7 @@
 const router = require("express").Router({ mergeParams: true });
 
-const localSimulation = require("./localSimulation.js");
+const simulation = require("./simulation.js");
 
-router.use("/local_simulation", localSimulation);
+router.use("/simulation", simulation);
 
 module.exports = router;
