@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-app.get("/health", (res, req) => {
+app.get("/", (res, req) => {
     return req.json({
         message: "Okay"
     }).send();
