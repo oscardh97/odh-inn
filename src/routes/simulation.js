@@ -7,7 +7,7 @@ const simulationController = require("../controllers/simulation.js");
  * 
  * @return Simulation
  */
-router.post("/run", (req, res) => {
+router.get("/run", (req, res) => {
     const simulation = simulationController.run();
 
     return res.json(simulation).send();
