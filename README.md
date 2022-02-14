@@ -32,6 +32,9 @@ There's only one endpoint that runs the simulation.
 ```sh
 localhost:8080/api/simulation/run
 ```
+The app is also deployed on Heroku, you can call the following endpoint:
+#### Method: Get
+#### URL: https://odh-hotel.herokuapp.com/api/simulation/run
 
 ## Questions
 1. How long did it take you to complete this assignment? Did you get stuck anywhere?
